@@ -4,4 +4,11 @@ body {
     max-width: 100%;
 }
 
+.success {
+    color: #0f0;
+}
+
+.fail {
+    color: #f00;
+}
 

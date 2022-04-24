@@ -11,6 +11,8 @@
     <p>Aktuelle https_proxy variable: {{proxy_url}}</p>
     <p>Aktuelle Requests CA bundle variable: {{requests_ca_bundle}}</p>
     <p>Aktueller Rheinpegel in Köln: {{pegelstand}} cm</p>
+    <p>Status: <span class="{% if status == "success" %}success{% else %}fail
+                            {%endif%}">{{status}}</span></p>
 </body>
 </html>
 
